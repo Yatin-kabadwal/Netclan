@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RefineActivity">
+
+    <TextView
+        android:id="@+id/text_refine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refine Screen"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Sample refine options -->
+    <CheckBox
+        android:id="@+id/checkbox_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 1"
+        android:layout_below="@id/text_refine"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 2"
+        android:layout_below="@id/checkbox_option1"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button_back_to_explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Explore Screen"
+        android:layout_below="@id/checkbox_option2"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
